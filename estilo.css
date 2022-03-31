@@ -37,7 +37,7 @@ body{
 }
 
 .banner{
-    height: 500px;
+    height: 650px;
     background-image: url(imgs/bg-jelly-fish-para-home.png);
     background-size: cover;
 }
@@ -68,8 +68,8 @@ li a{
 }
 
 .form-box{
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 input{
@@ -81,7 +81,7 @@ input{
 .btn{
     font-family: monospace;
     border: 0;
-    border-radius: 4px;
+    border-radius: 8px;
     font-weight: bolder;
     font-size: 18px;
     padding: 0;
@@ -89,9 +89,37 @@ input{
     background-color: #e6005a;
     width: 120px;
     align-self: center;
+    border: 2px solid #e6005a;
+    height: 35px;
+}
+.btn2{
+    font-family: monospace;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0;
+    color: #e6005a;
+    background-color: white;
+    width: 120px;
+    align-self: center;
+    border: 2px solid #e6005a;
+    cursor: pointer;
+    height: 35px;
+}
+.botoes{
+    display: flex;
+    height: 80px; 
+}
+.botoes a {
+    display: flex;
+    height: 80px;
+    text-decoration: none;
+    margin-left: 35px;
 }
 
 .banner .card{
+    margin-top: 100px;
     background-color: #e5e5e5;
     height: 450px;
     width: 400px;
@@ -102,4 +130,44 @@ input{
     color: #e6005a;
     
 }
+.btn_cadastro{
+    margin-top: 10px;
+    font-family: monospace;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 0;
+    color: white;
+    background-color: #e6005a;
+    width: 120px;
+    align-self: center;
+    cursor: pointer;
 
+}
+.banner .card_cadastro{
+    padding-bottom: 30px;
+    margin-top: 100px;
+    background-color: #e5e5e5;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e6005a;
+}
+.footer{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background-color: #32b9cd;
+}
+.footer p{
+    display: flex;
+    font-family: monospace;
+    font-size: 15px;
+    width: 100%;
+    color: white;
+    justify-content: center
+}
